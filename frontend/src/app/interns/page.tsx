@@ -148,7 +148,7 @@ export default function Interns() {
       {/* 検索結果の表示 */}
       {data && data.length === 0 && (searchQuery || skillFilter || schoolFilter) && (
         <div className="text-center py-8 text-gray-500">
-          検索条件に一致するインターン生が見つかりませんでした。
+          検索条件に一致するインターンシップ生が見つかりませんでした。
         </div>
       )}
 
@@ -199,3 +199,4 @@ export default function Interns() {
     </main>
   );
 }
+
